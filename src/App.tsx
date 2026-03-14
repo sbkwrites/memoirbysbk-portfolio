@@ -126,7 +126,7 @@ export default function App() {
             onClick={() => setCurrentPage('home')}
             className="text-xl font-medium tracking-widest text-memoir-paper uppercase"
           >
-            MEMOIRBYSBK
+            MEMOIRBYSB
           </button>
         </div>
 
@@ -261,7 +261,7 @@ export default function App() {
                     Preserving <span className="text-memoir-primary italic">humanity</span> in every frame.
                   </h1>
                   <p className="text-lg text-memoir-primary/80 leading-relaxed max-w-xl mb-10">
-                    I am a visual storyteller dedicated to capturing the quiet, honest moments that define our lives. Memoirbysbk was born from a passion for timeless aesthetics and the profound beauty found in raw, unscripted reality.
+                    I am a visual storyteller dedicated to capturing the quiet, honest moments that define our lives. Memoirbysb was born from a passion for timeless aesthetics and the profound beauty found in raw, unscripted reality.
                   </p>
                   <div className="flex gap-4">
                     <button 
@@ -350,7 +350,7 @@ export default function App() {
                   <section className="space-y-8">
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-[0.2em] text-memoir-accent mb-2">Email</span>
-                      <a className="text-xl hover:text-memoir-accent transition-colors" href="mailto:hello@memoirbysbk.com">hello@memoirbysbk.com</a>
+                      <a className="text-xl hover:text-memoir-accent transition-colors" href="mailto:hello@memoirbysb.com">hello@memoirbysb.com</a>
                     </div>
                     <div className="flex flex-col">
                       <span className="text-xs uppercase tracking-[0.2em] text-memoir-accent mb-2">Location</span>
@@ -428,8 +428,8 @@ export default function App() {
       <footer className="py-16 px-8 bg-memoir-bg border-t border-memoir-accent/10">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left mb-8 md:mb-0">
-            <span className="text-xs tracking-[0.5em] text-memoir-accent uppercase">MEMOIRBYSBK</span>
-            <p className="text-[10px] text-zinc-500 mt-2 uppercase tracking-widest">© 2024 All Rights Reserved</p>
+            <span className="text-xs tracking-[0.5em] text-memoir-accent uppercase">MEMOIRBYSB</span>
+            <p className="text-[10px] text-zinc-500 mt-2 uppercase tracking-widest">© 2026 All Rights Reserved</p>
           </div>
           <div className="flex space-x-8 text-[10px] tracking-[0.2em] uppercase text-memoir-accent">
             <a className="hover:text-custom-theme transition-colors" href="#">Instagram</a>
