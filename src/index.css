@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@theme {
+  --font-serif: "Noto Serif", serif;
+  
+  --color-memoir-bg: #121212;
+  --color-memoir-paper: #FAF9F6;
+  --color-memoir-primary: #C9C2B2;
+  --color-memoir-accent: #A48D78;
+  --color-memoir-dark: #1a1a1a;
+  --color-custom-theme: #cdc1ac;
+}
+
+@layer base {
+  body {
+    @apply bg-memoir-bg text-memoir-paper font-serif antialiased;
+  }
+}
+
+.nav-link {
+  @apply transition-colors duration-300 tracking-widest uppercase text-[10px] md:text-xs;
+}
+
+.nav-link:hover {
+  @apply text-custom-theme;
+}
+
+.hero-gradient {
+  background: linear-gradient(to bottom, rgba(18,18,18,0.3) 0%, rgba(18,18,18,0.8) 100%);
+}
+
+.img-container {
+  @apply overflow-hidden;
+}
+
+.img-container img {
+  @apply transition-transform duration-700 ease-out;
+}
+
+.img-container:hover img {
+  @apply scale-105;
+}
